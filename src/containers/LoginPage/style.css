@@ -1,0 +1,39 @@
+/* Stil tanımlamaları */
+.loginContainer, .registerContainer {
+    width: 500px;
+    position: relative;
+    margin: 50px auto;
+    background-color: #fff; /* Konteyner arka plan rengi */
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+    border-radius: 5px;
+  }
+  
+  /* Buton stilleri */
+  button {
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 229px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Input stilleri */
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* İlgili input alanlarını seçmek için bir class veya ID ekleyin */
